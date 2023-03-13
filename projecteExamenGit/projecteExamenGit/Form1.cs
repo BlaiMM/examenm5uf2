@@ -14,6 +14,7 @@ namespace projecteExamenGit
     {
         public FrmAnimal fAnim;
         public FrmViatge fViat;
+        public FrmMenjar fMenjar;
         public frmMain()
         {
             InitializeComponent();
@@ -21,36 +22,33 @@ namespace projecteExamenGit
 
         private void btAnimal_Click(object sender, EventArgs e)
         {
-            if (!(ja_està_obert("FrmAnimal")))
-            {
+            
                 fAnim = new FrmAnimal();
-                fAnim.MdiParent = this;           // --- hem fet que FRM_MAIN sigui MdiContainer i posem aquest Form com a fill seu ---
-            }
+                fAnim.MdiParent = this;          
+            
             fAnim.WindowState = FormWindowState.Normal;
             fAnim.Show();
         }
-        public Boolean ja_està_obert(String xnom_frm)
-        {
-            int x1 = 0;
-            Boolean xb = false;
-
-            while ((x1 < this.MdiChildren.Length) && (!(xb)))
-            {
-                xb = (this.MdiChildren[x1].Name == xnom_frm);
-                x1++;
-            }
-            return (xb);
-        }
+        
 
         private void btViatge_Click(object sender, EventArgs e)
         {
-            if (!(ja_està_obert("FrmViatge")))
-            {
+            
                 fViat = new FrmViatge();
-                fViat.MdiParent = this;           // --- hem fet que FRM_MAIN sigui MdiContainer i posem aquest Form com a fill seu ---
-            }
+                fViat.MdiParent = this;          
+            
             fViat.WindowState = FormWindowState.Normal;
             fViat.Show();
+        }
+
+        private void btMenjar_Click(object sender, EventArgs e)
+        {
+
+            fMenjar = new FrmMenjar();
+            fMenjar.MdiParent = this;
+
+            fMenjar.WindowState = FormWindowState.Normal;
+            fMenjar.Show();
         }
     }
 }

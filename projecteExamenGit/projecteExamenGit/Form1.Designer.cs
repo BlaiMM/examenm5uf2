@@ -30,6 +30,7 @@
         {
             this.btAnimal = new System.Windows.Forms.Button();
             this.btViatge = new System.Windows.Forms.Button();
+            this.btMenjar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btAnimal
@@ -56,11 +57,24 @@
             this.btViatge.UseVisualStyleBackColor = false;
             this.btViatge.Click += new System.EventHandler(this.btViatge_Click);
             // 
+            // btMenjar
+            // 
+            this.btMenjar.BackColor = System.Drawing.Color.GreenYellow;
+            this.btMenjar.ForeColor = System.Drawing.Color.Gold;
+            this.btMenjar.Location = new System.Drawing.Point(147, 135);
+            this.btMenjar.Name = "btMenjar";
+            this.btMenjar.Size = new System.Drawing.Size(75, 23);
+            this.btMenjar.TabIndex = 2;
+            this.btMenjar.Text = "Menjar";
+            this.btMenjar.UseVisualStyleBackColor = false;
+            this.btMenjar.Click += new System.EventHandler(this.btMenjar_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(392, 192);
+            this.Controls.Add(this.btMenjar);
             this.Controls.Add(this.btViatge);
             this.Controls.Add(this.btAnimal);
             this.Name = "frmMain";
@@ -73,6 +87,7 @@
 
         private System.Windows.Forms.Button btAnimal;
         private System.Windows.Forms.Button btViatge;
+        private System.Windows.Forms.Button btMenjar;
     }
 }
 
