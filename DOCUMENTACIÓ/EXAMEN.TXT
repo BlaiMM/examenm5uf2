@@ -15,5 +15,5 @@ TORNEM A LA ARREL DEL PROJECTE, crearem la carpeta DOCUMENTACIO
 mkdir DOCUMENTACIÓ
 cd DOCUMENTACIÓ
 
-nano EXAMEN.TXT --> actualment estas aquí.
+nano EXAMEN.TXT --> actualment estas aquí
 
