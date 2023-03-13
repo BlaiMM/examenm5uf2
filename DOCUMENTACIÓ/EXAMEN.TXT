@@ -1,3 +1,5 @@
+**************************exercici 1*****************
+
 mkdir examenm5uf2
 cd examenm5uf2 
 nano README.MD --> hem afegit el contingut que ens has demanat.
@@ -17,3 +19,29 @@ cd DOCUMENTACIÓ
 
 nano EXAMEN.TXT --> actualment estas aquí
 
+Tornem a la arrel.
+
+git add . 
+git commit -m "versio 1"
+
+git push origin master 
+
+*********************EXERCICI 2**************************************
+
+nano LICENSE --> posem dins el text de la llicencia
+
+cd DOCUMENTACIÓ
+
+nano EXAMEN.TXT --> actualment estas aquí
+
+
+******************EXERCICI 3****************************
+nano .gitignore --> hem editat conforme el que demana el exercici
+								
+*.exe
+
+git add . --> desde l'arrel 
+
+git commit -m "Versio 3"
+
+git push origin master 
