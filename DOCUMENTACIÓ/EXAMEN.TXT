@@ -58,3 +58,19 @@ hem modificat i actualitzat el projecte
 
 ******************EXERCICI 6**********************************
 HEM MODIFICAR EL PROJECTE
+
+git branch ampliacio 
+git checkout ampliacio
+nano EXAMEN.TXT -->modifiquem el txt
+
+git add . 
+git commit -m "versió 6"
+git push origin ampliacio --> creara la banca
+
+
+
+**********EXERCICI 7*****************
+
+
+git checkout master
+git merge ampliacio 
