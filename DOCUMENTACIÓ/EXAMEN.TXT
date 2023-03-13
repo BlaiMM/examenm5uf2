@@ -49,4 +49,11 @@ git push origin master
 
 ***********************EXERCICI 4*******************************
 
+hem modificat el projecte 
+hem actulitzat el projecte 
+
+**********************EXERCICI 5***********************
+
+hem modificat i actualitzat el projecte
+
 

@@ -42,6 +42,7 @@
             this.btAnimal.TabIndex = 0;
             this.btAnimal.Text = "Animal";
             this.btAnimal.UseVisualStyleBackColor = false;
+            this.btAnimal.Click += new System.EventHandler(this.btAnimal_Click);
             // 
             // btViatge
             // 
@@ -53,6 +54,7 @@
             this.btViatge.TabIndex = 1;
             this.btViatge.Text = "Viatge";
             this.btViatge.UseVisualStyleBackColor = false;
+            this.btViatge.Click += new System.EventHandler(this.btViatge_Click);
             // 
             // frmMain
             // 
