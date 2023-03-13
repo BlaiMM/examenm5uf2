@@ -1,0 +1,19 @@
+mkdir examenm5uf2
+cd examenm5uf2 
+nano README.MD --> hem afegit el contingut que ens has demanat.
+nano COPYLEFT --> hem afegit el contingut que ens has demanat.
+
+git remote add origin https://github.com/BlaiMM/examenm5uf2.git
+
+git add . 
+
+git commit -m "Creacio Readme i Copyleft"
+git push origin master
+
+TORNEM A LA ARREL DEL PROJECTE, crearem la carpeta DOCUMENTACIO
+
+mkdir DOCUMENTACIÓ
+cd DOCUMENTACIÓ
+
+nano EXAMEN.TXT --> actualment estas aquí.
+
