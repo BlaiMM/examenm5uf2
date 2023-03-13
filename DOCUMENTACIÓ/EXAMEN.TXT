@@ -45,3 +45,8 @@ git add . --> desde l'arrel
 git commit -m "Versio 3"
 
 git push origin master 
+
+
+***********************EXERCICI 4*******************************
+
+

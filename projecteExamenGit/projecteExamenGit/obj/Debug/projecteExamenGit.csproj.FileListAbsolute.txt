@@ -1,0 +1,10 @@
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\bin\Debug\projecteExamenGit.exe.config
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\bin\Debug\projecteExamenGit.exe
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\bin\Debug\projecteExamenGit.pdb
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\obj\Debug\projecteExamenGit.csproj.AssemblyReference.cache
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\obj\Debug\projecteExamenGit.csproj.SuggestedBindingRedirects.cache
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\obj\Debug\projecteExamenGit.Properties.Resources.resources
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\obj\Debug\projecteExamenGit.csproj.GenerateResource.cache
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\obj\Debug\projecteExamenGit.csproj.CoreCompileInputs.cache
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\obj\Debug\projecteExamenGit.exe
+C:\Users\blaim\Desktop\projecteExamenGit\projecteExamenGit\obj\Debug\projecteExamenGit.pdb
